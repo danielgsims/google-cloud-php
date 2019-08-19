@@ -190,18 +190,18 @@ class Topic
      * Example:
      * ```
      * $topic->update([
-     *    'messageStoragePolicy' => [
-     *       'allowedPersistenceRegions' => ['us-central1']
-     *    ]
+     *     'messageStoragePolicy' => [
+     *         'allowedPersistenceRegions' => ['us-central1']
+     *     ]
      * ]);
      * ```
      *
      *```
      * // Updating labels with an explicit update mask
      * $topic->update([
-     *    'labels' => [ 'foo' => 'bar' ]
+     *     'labels' => [ 'foo' => 'bar' ]
      * ], [
-     *    'updateMask' => [ 'labels' ]
+     *     'updateMask' => [ 'labels' ]
      * ]);
      * ```
      *
